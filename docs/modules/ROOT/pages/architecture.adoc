@@ -1,12 +1,16 @@
 = Architecture
-:page-sidebar: apim_3_x_sidebar
-:page-permalink: apim/3.x/apim_overview_architecture.html
+:page-sidebar: apim_1_x_sidebar
+:page-permalink: apim/1.x/apim_overview_architecture.html
 :page-folder: apim/overview
 :page-toc: false
-:page-layout: apim3x
+:page-layout: apim1x
 
-This page provides details on the global architecture for Gravitee.io APIM. Before you install and use the product, take a few moments to get to know the APIM architecture.
+Before going further with Gravitee.io, you have to read this section to get a better understanding of the concepts you need
+to know to go forward very (and really) quickly.
 
-== Global Architecture
-.Gravitee.io APIM - Global Architecture
-image::apim/3.x/overview/architecture/new-gravitee-global-architecture-schema.png[Gravitee.io APIM - Global Architecture]
+
+.Gravitee.io - Global Architecture
+image::apim/1.x/architecture/graviteeio-global-architecture.png[Gravitee.io - Global Architecture]
+
+.Gravitee.io - Platform Architecture
+image::apim/1.x/architecture/graviteeio-platform-architecture.png[Gravitee.io - Platform Architecture]

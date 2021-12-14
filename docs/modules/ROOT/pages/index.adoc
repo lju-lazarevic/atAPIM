@@ -1,65 +1,34 @@
-= Introduction
-:page-sidebar: apim_3_x_sidebar
-:page-permalink: apim/3.x/apim_overview_introduction.html
+:page-sidebar: apim_1_x_sidebar
+:page-permalink: apim/1.x/apim_overview_introduction.html
 :page-folder: apim/overview
 :page-description: Gravitee.io API Management - Introduction
-:page-toc: false 
+:page-toc: false
 :page-keywords: Gravitee.io, API Platform, API Management, API Gateway, oauth2, openid, documentation, manual, guide, reference, api
-:page-layout: apim3x
+:page-layout: apim1x
 
-[[gravitee-introduction]]
-Organizations need API management solutions to publish their APIs to external developers, internal developers, and other
-partners. API management can unlock the potential of the organization's data and services, as well as facilitate the transformation to OpenAPI and OpenData, extending the company's digital platform offerings, opening new communication channels, and finding new customers.
+= Introduction
 
-Naturally, a growing customer base brings new challenges, such as:
+Nowadays, API Management helps organizations to publish their APIs to external developers,
+partners and internal developers in order to unlock the potential of their data and services
+and to move into an OpenAPI and an OpenData dynamic. By doing so, companies are able to extend their
+operations as a digital platform, by creating new "communication" channels and finding new customers.
 
-* How to reduce the time taken to enroll new partners.
-* How to identify partners and manage their API consumption.
-* How to measure consumption from a consumer and/or producer point of view.
-* How to share existing APIs and how to discover them.
-* How to manage the API lifecycle, versioning, documentation, and so on.
+By providing such facilities, companies are seeing a growing number of consumers and partners
+and must face new challenges:
 
-How can businesses address all these challenges seamlessly, for all APIs, using a centralized tool? Simple – by choosing Gravitee.io API Management.
+* How to reduce time to enroll new consumers / partners
+* How to identify partners and manage their API consumption
+* How to measure consumption from a consumer and/or from a producer point of view
+* How to share existing APIs and how to discover them
+* How to manage API lifecycle, versioning, documentation, ...
+
+It is then a question about how to address these problems in a uniform way for all your APIs using a central tool.
+
+All of these questions are addressed in Gravitee.io API Management
 
 [[gravitee-overview]]
-== What Is Gravitee.io API Management? 
+== Gravitee.io API Management
 
-Gravitee.io API Management (APIM) is a flexible, lightweight, and blazing-fast open source API management solution that gives your organization full control over who accesses your API — when and how. APIM is both simple to use and powerful, acting as a global solution for API management. Gravitee.io APIM is composed of four main components: 
+Gravitee.io API Management is a flexible, lightweight and blazing-fast open source API Management solution that helps you and your organizations to control finely who, when and how users access your APIs. Gravitee.io API Management is not only a simple product, it acts as a global solution for API Management.
 
-1. link:/apim/3.x/apim_overview_components.html#gravitee-components-gateway[APIM Gateway].  
-2. link:/apim/3.x/apim_overview_components.html#gravitee-components-rest-api[APIM API]. 
-3. link:/apim/3.x/apim_overview_components.html#gravitee-components-mgmt-ui[APIM Console]. 
-4. link:/apim/3.x/apim_overview_components.html#gravitee-components-portal-ui[APIM Portal]. 
-
-We'll dive into these components in detail in their respective sections. 
-
-[[why-gravitee-API]]
-== Why Gravitee.io API Management?
-
-Our goal in launching Gravitee.io APIM is to provide users with a highly flexible and scalable solution that integrates with their infrastructure seamlessly and fits their business needs perfectly. We’ve designed and developed APIM to be fully extensible using its own internal plugin system, so you can define your own policy, develop your own reporting system, and more.
-
-Additionally, all APIM components (including <<apim_overview_components.adoc#gravitee-components-gateway, API Gateway>> and <<apim_overview_components.adoc#gravitee-components-rest-api, APIM API>>) are incredibly lightweight. We took a consciously aggressive approach to CPU and memory management with our products to supply high availability through our lightning-fast component start-up times. 
-
-Typically, *_it takes less than 5 seconds_* for the API Gateway to be accessible to consumers (subject to the number of APIs being deployed).
-
-== Concepts [[gravitee-apim-concepts]]
-[[gravitee-concepts-api]]
-=== API
-*API* is the root concept defined and used by APIM. Think of this as the starting point through which services are exposed to the gateway.
-
-[[gravitee-concepts-publisher]]
-=== Publisher
-In our platform, we define a *publisher* (also called *API publisher*) as the role that declares and manages APIs.
-
-[[gravitee-concepts-consumer]]
-=== Consumer
-In our platform, we define a *consumer* (also called *API consumer*) as the role that consumes APIs. [underline]*PRO-TIP*: A consumer can only consume an API after subscribing to it. 
-
-[[gravitee-concepts-application]]
-=== Application
-An *application* is an intermediate level between a *consumer* and an API. The consumer uses an application to subscribe to the API before they are able to consume it.
-
-{empty} +
-{empty} +
-*Ready to use Gravitee.io API Management? Let's get started!*
-
+NOTE: In the rest of the document, we use the short name *Gravitee.io* or *Gravitee.io APIM* to talk about *Gravitee.io API Management*.
