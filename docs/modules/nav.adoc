@@ -1,0 +1,7 @@
+* *Test stuff in Antora for APIM*
+
+* xref:introduction.adoc[Introduction]
+* xref:concepts.adoc[Concepts]
+* xref:architecture.adoc[Architecture]
+* xref:components.adoc[Components]
+* xref:plugins.adoc[Plugins]
