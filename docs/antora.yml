@@ -1,5 +1,5 @@
 name: Test Antora APIM
-version: main
+version: 1.x
 title: Gravitee Antora Test APIM
 nav:
 - modules/ROOT/nav.adoc
